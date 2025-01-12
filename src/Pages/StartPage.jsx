@@ -1,9 +1,12 @@
-import React from 'react'
+import { Link } from "react-router-dom";
 
 const StartPage = () => {
   return (
-    <div>StartPage</div>
-  )
-}
+    <div>
+      <h1>Start Game...</h1>
+      <Link to="/play-game"></Link>
+    </div>
+  );
+};
 
-export default StartPage
+export default StartPage;
